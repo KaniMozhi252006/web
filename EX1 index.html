@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets World</title>
+    <link rel="icon" href="pet.jpg">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #333;
+        }
+        nav {
+            background-color: #A35C7A;
+            color: white;
+            padding: 20px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 4px 8px rgb(86, 84, 84);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav h1 {
+            font-size: 26px;
+            font-weight: bold;
+            margin: 0;
+            transition: transform 0.3s;
+        }
+        nav h1:hover {
+            transform: scale(1.1);
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s, transform 0.3s;
+        }
+        nav ul li a:hover {
+            color: pink;
+            transform: scale(1.1);
+        }
+        .hero-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 30px;
+        }
+        .hero-section img {
+            width: 90%;
+            max-width: 1200px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 3px 7px rgba(0, 0, 0, 0.2);
+        }
+        .content {
+            padding: 30px;
+        }
+        .content h3 {
+            font-size: 28px;
+            margin-bottom: 10px;
+            color: #222;
+        }
+        .content p {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 30px 0;
+            font-size: 16px;
+            text-align: left;
+        }
+        table th {
+            background-color:#C890A7;
+            color: white;
+            padding: 12px;
+            text-transform: uppercase;
+        }
+        table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+        }
+        table tbody tr:nth-child(odd) {
+            background-color:#FFCCE1;
+        }
+        table tbody tr:nth-child(even) {
+            background-color: #fff;
+        }
+        footer {
+            background-color:#A35C7A;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Pawsome Meals</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+        </ul>
+    </nav>
+    <div class="hero-section">
+        <img src="image3.jpg" alt="Pets World Hero Image">
+    </div>
+    <div class="content">
+        <h3>About Us</h3>
+        <p>Welcome to Pawsome Meals, where love for pets meets the art of exceptional nutrition! We believe that every furry, feathered, and scaly friend deserves a meal packed with wholesome goodness, tailored to their unique needs. At Pawsome Meals, we’ve made it our mission to revolutionize pet care through food that isn’t just healthy but irresistibly delicious for your beloved companions.
+
+            Our story began with a simple yet powerful idea: to ensure that every pet gets the nutrition they deserve for a happy and healthy life. As pet lovers ourselves, we understand the joy, loyalty, and unconditional love pets bring to our lives. That’s why we set out to create a one-stop destination where pet parents could find premium-quality meals that nourish their pets both inside and out.
+            We pride ourselves on sourcing the finest ingredients from trusted suppliers and blending them into recipes backed by science and approved by veterinarians. Each bite is thoughtfully crafted to provide your pets with the vitamins, minerals, and proteins they need to thrive. Whether your companion is a playful puppy, a curious kitten, a graceful bird, or even a tiny hamster, our menu caters to a wide range of pets with their diverse dietary needs in mind.</p>
+        <p><b>Why Choose Pawsome Meals?</b>
+            <li>Premium Ingredients: We select only the best, natural ingredients to create recipes free from harmful additives, artificial flavors, and fillers.</li>
+            <li>Tailored Nutrition: Our meals are designed with your pet’s unique dietary requirements at heart, ensuring they receive the right balance of nutrients.</li>
+            <li>Commitment to Quality: From farm to bowl, our team oversees every step of the process to guarantee fresh, high-quality meals for your pets.</li>
+            <li>Love in Every Bite: More than just food, our meals are a gesture of love and care for your pets, crafted with passion by a team of animal enthusiasts.</li><br>
+            At Pawsome Meals, we aim to bring joy to pets and their parents by making every mealtime an experience worth wagging a tail for. Our mission is to inspire healthier, happier lives for pets by delivering food that is both delicious and nutritious. We believe that when pets eat well, they feel well, and when they feel well, they live their best lives.<br>
+            We promise to treat your pets like family—because they are family. Every recipe is made with the care and attention to detail that your pets deserve. We partner with veterinary experts and pet nutritionists to ensure that every product meets the highest standards of safety and health.<br>
+            Being a pet parent isn’t just a role—it’s a journey filled with love, laughter, and precious memories. At Pawsome Meals, we’re here to be your partner in this journey, providing you with the tools, knowledge, and premium food to keep your pets happy and healthy. Whether you’re looking for a gourmet meal for your cat, a protein-packed treat for your dog, or a nutritious snack for your bird, we’ve got you covered.
+Thank you for choosing Pawsome Meals. Together, let’s make every mealtime pawsome!
+        </p>
+        <h3>Our Products</h3>
+        <p>We offer a diverse range of pet food tailored to meet the unique needs of various animals. Here are some of our best-selling products:</p>
+        <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Chicken and Rice Dog Food</td>
+                    <td>Dog</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>Grain-Free Cat Food</td>
+                    <td>Cat</td>
+                    <td>$18</td>
+                </tr>
+                <tr>
+                    <td>Parrot Seed Mix</td>
+                    <td>Bird</td>
+                    <td>$12</td>
+                </tr>
+                <tr>
+                    <td>Fish Flakes</td>
+                    <td>Fish</td>
+                    <td>$10</td>
+                </tr>
+        </table>
+        <h3>Contact Us</h3>
+        <p>We’re here to help you with any questions or concerns. Feel free to reach out to us:</p>
+        <p>Email: support@petsworld.com<br>Phone:+91 9876543210<br>Address: 123 Pet Lane, Petville, PA 45678</p>
+    </div>
+    <footer>
+        <p>&copy; 2025 Pawsome Meals. All rights reserved.</p>
+    </footer>
+</body>
+</html>
